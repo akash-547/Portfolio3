@@ -6,6 +6,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "poppins", sans-serif;
 }
 #header{
     width: 100%;
@@ -14,24 +15,37 @@ body{
 }
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around ;
     align-items: center;
 }
 .navbar div{
     margin: 20px;
 }
-
+.logo{
+    margin-left: 30px;
+    background-color: orangered ;
+}
 .logo h3{
     color: #fffbf6;
-    background-color: orangered;
-    padding-left: 30px;
 }
-.menu a{
+.menu ul li{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 10vh;
+}
+.menu  a{
     text-decoration: none;
-    padding: 0 15px;
     color: rgb(60, 44, 64);
+    font-weight: 550;
+}
+.menu a:hover{
+    color: rgb(255, 128, 89);
 }
 .socialIcons a{
     padding: 0 10px;
     color: rgb(60, 44, 64);
+    font-size: 22px;
+}
+.socialIcons a:hover{
+    color: rgb(255, 128, 89);
 }
