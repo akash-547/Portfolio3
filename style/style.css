@@ -21,12 +21,10 @@ body{
 .navbar div{
     margin: 20px;
 }
-.logo{
-    margin-left: 30px;
-    background-color: orangered ;
-}
+
 .logo h3{
-    color: #fffbf6;
+    color: rgb(255, 128, 89);
+    font-size: 25px;
 }
 .menu ul li{
     display: inline-block;
@@ -40,6 +38,7 @@ body{
 }
 .menu a:hover{
     color: rgb(255, 128, 89);
+    transition: .2s;
 }
 .socialIcons a{
     padding: 0 10px;
@@ -48,4 +47,5 @@ body{
 }
 .socialIcons a:hover{
     color: rgb(255, 128, 89);
+    transition: .2;
 }
