@@ -50,7 +50,7 @@ body{
 }
 .menu a:hover{
     color: #0ef;
-    transition: .2s;
+    transition: .3s;
 }
 .socialIcons a{
     padding: 0 10px;
@@ -59,7 +59,7 @@ body{
 }
 .socialIcons a:hover{
     color: #0ef;
-    transition: .2s;
+    transition: 1s;
 }
 /* hero section styling */
 #hero-section{
@@ -124,37 +124,44 @@ body{
   /* About-section */
   #AboutSection{
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background-color: #081b29;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
   }
   .About-container{
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .about-skill-content{
+    width: 50%;
+    margin-left: 2em;
   }
   .about-content{
     color: white;
   }
   .about-heading{
     font-family: "Poppins", sans-serif;
-    font-size: 4 0px;
+    font-size: 40px;
     font-weight: 550;
+    color: #0ef;
   }
   .about-para{
-    font-weight: 300;
-    bottom: -10em;
+    margin-top: 80px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+
   }
   .about-skills{
     margin-top: 2em;
-    width: 50%
   }
   .skills{
-    padding: 0 20px ;
+    align-items: center;
+    
   }
   .skill-content{
     margin-top: 30px;
     max-width: 500px;
+    flex-shrink: 1;
   }
   .name{
     margin: 10px 0;
@@ -186,7 +193,38 @@ body{
 }
 .skill-experince{
     width: 50%;
-    background-color: #0ef;
 }
+.para-exp{
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+}
+.exp-heading{
+  font-size: 500px;
+  color: #0ef;
+}
+  .exp-text{
+    margin-top: 80px;
+  }
+  .exp-para{
+    margin-top: 10em;
+  }
+  .exp-yea{
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .exp-text{
+    display: flex;
+    justify-content: flex;
+    align-items: center;
 
-  
+
+  }
+  .exp-about p,hr{
+    color: white;
+   flex-direction: column-reverse;
+  }
+  .hr{
+    color: #0ef;
+  }
