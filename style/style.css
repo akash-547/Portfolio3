@@ -113,6 +113,7 @@ body{
     position: relative;
     overflow: hidden;
     margin-bottom: 5em;
+    flex-shrink: 2;
   }
   
   .hero-image {
@@ -124,7 +125,7 @@ body{
   /* About-section */
   #AboutSection{
     width: 100%;
-    height: 110vh;
+    height: 150vh;
     background-color: #081b29;
   }
   .About-container{
@@ -138,6 +139,7 @@ body{
   }
   .about-content{
     color: white;
+
   }
   .about-heading{
     font-family: "Poppins", sans-serif;
@@ -196,12 +198,12 @@ body{
 }
 .para-exp{
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 100;
   font-family: "Poppins", sans-serif;
 }
 .exp-heading{
-  font-size: 500px;
+  font-size: 400px;
   color: #0ef;
 }
   .exp-text{
@@ -221,10 +223,84 @@ body{
 
 
   }
-  .exp-about p,hr{
-    color: white;
-   flex-direction: column-reverse;
-  }
-  .hr{
+  .exp-about a{
     color: #0ef;
+    font-size: 25px;
+    margin-top: 10em;
+   
+  }
+  .exp-about a:hover{
+    color: white;
+    transition: .3s;
+  }
+
+  /* service-stying */
+#service-section{
+  height: 120vh;
+  width: 100%;
+  background-color: #0a2030;
+}
+.main-heading{
+  text-align: center;
+  color: #0ef;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  align-content: center
+}
+.main-heading h2{
+  padding-top: 1em;
+}
+.service-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.ser-heading{
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: #0ef;
+  margin-left: 2.3em;
+  font-size: 600;
+  
+  }
+  .ser-para{
+    color: white;
+    margin-right: 3em;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+  }
+  .service-container2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .web-developer{
+    background-color: #0ef;
+    width: 250px;
+    height: 350px;
+    border: 2px solid #081b29;
+    margin-left: 2em;
+    margin-top: 5em;
+  }
+  .web-developer i , h4 , p{
+    padding: 15px;
+  }
+  .web-developer i {
+    font-size: 40px;
+    font-weight: 100;
+  }
+  .web-developer h4{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+  }
+  .web-developer:hover{
+    background-color: rgba(5, 121, 129, 0.116);
+    transition: .5s;
+    cursor: pointer;
+    color: white;
   }
