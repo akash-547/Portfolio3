@@ -256,6 +256,7 @@ body{
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  margin-top: 4em;
 }
 .ser-heading{
   font-family: "Poppins", sans-serif;
@@ -267,7 +268,7 @@ body{
   }
   .ser-para{
     color: white;
-    margin-right: 3em;
+    margin-right: 2em;
     font-family: "Poppins", sans-serif;
     font-size: 15px;
     font-weight: 100;
@@ -303,4 +304,112 @@ body{
     transition: .5s;
     cursor: pointer;
     color: white;
+  }
+
+  /* portfolio styling*/
+
+  #portfolio{
+   height: 150vh;
+   width: 100%;
+   background-color: #081b29;
+  }
+  .portfolio-heading{
+    text-align: center;
+    color: #0ef;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    align-content: center
+  }
+  .portfolio-heading h2{
+    padding-top: 1em;
+  }
+  .portfolio-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5em;
+  }
+  .port-heading{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    color: #0ef;
+    margin-left: 2.3em;
+    font-size: 600;
+    
+    }
+    .port-para{
+      color: white;
+      margin-right: 2em;
+      font-family: "Poppins", sans-serif;
+      font-size: 15px;
+      font-weight: 100;
+    }
+    .menu-two{
+      display: inline;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 5em;
+    }
+    .unordered {
+      display: flex;
+      justify-content: center;
+      gap: 4em;
+      margin-top: 4em;
+      
+    }
+    .unordered li ,a{
+      list-style: none;
+      text-decoration: none;
+      color: white;
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+    }
+    .unordered a:hover{
+      color: #0ef;
+      transition: .5s;
+    }
+    #portfolio-container-two{
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      
+    }
+    .port-container{
+    border: 2px solid #081b29;
+      width: 500px;
+      height: 420px;
+      background-color: #0ef;
+      display: flex;
+      margin-top: 4em;
+      object-fit: cover;
+      flex-direction: column;
+      
+    }
+     .port-img{
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .port-img img{
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .port-text{
+      flex-direction: column;
+      display: flex;
+    }
+    .port-text span{
+      margin-top: 2em;
+      font-size: 15px;
+      font-weight: 700;
+      padding-left: 12px;
+      font-family: "Poppins", sans-serif;
+    }
+  .port-text p{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
   }
