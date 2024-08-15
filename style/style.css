@@ -109,7 +109,7 @@ body{
     height: 400px;
     background-color: rgb(10, 224, 240);
     border-radius: 50%;
-    margin-top: 10em;
+    margin-top: 5em;
     position: relative;
     overflow: hidden;
     margin-bottom: 5em;
@@ -285,7 +285,9 @@ body{
     height: 350px;
     border: 2px solid #081b29;
     margin-left: 2em;
+    transition: all 1s ease-in 1s;
     margin-top: 5em;
+    
   }
   .web-developer i , h4 , p{
     padding: 15px;
@@ -376,8 +378,12 @@ body{
       gap: 2em;
       
     }
+    #portfolio-container-three{
+      display: flex;
+      justify-content: center;
+      gap: 2em;    }
     .port-container{
-    border: 2px solid #081b29;
+    border: 1px solid #081b29;
       width: 500px;
       height: 420px;
       background-color: #0ef;
@@ -386,6 +392,67 @@ body{
       object-fit: cover;
       flex-direction: column;
       
+    }
+    .port-container2{
+      border: 1px solid #081b29;
+      width: 500px;
+      height: 500px;
+      background-color: #0ef;
+      display: flex;
+      margin-top: 4em;
+      object-fit: cover;
+      flex-direction: column;
+    }
+    .port-container3{
+      border: 1px solid #081b29;
+      width: 500px;
+      height: 420px;
+      background-color: #0ef;
+      display: flex;
+      object-fit: cover;
+      
+      flex-direction: column;
+    }
+    .port-container4{
+      border: 1px solid #081b29;
+      width: 500px;
+      height: 500px;
+      background-color: #0ef;
+      display: flex;
+      margin-top: 1em;
+      object-fit: cover;
+      flex-direction: column;
+    }
+    
+    .port-img2{
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .port-img2 img{
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .port-img3{
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .port-img3 img{
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .port-img4{
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .port-img4 img{
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
     }
      .port-img{
       width: 100%;
@@ -397,6 +464,7 @@ body{
       height: 300px;
       object-fit: cover;
     }
+
     .port-text{
       flex-direction: column;
       display: flex;
