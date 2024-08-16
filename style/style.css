@@ -311,7 +311,7 @@ body{
   /* portfolio styling*/
 
   #portfolio{
-   height: 150vh;
+   height: 110vmax;
    width: 100%;
    background-color: #081b29;
   }
@@ -374,30 +374,48 @@ body{
     }
     #portfolio-container-two{
       display: flex;
-      justify-content: space-evenly;
-      gap: 2em;
+      margin-top: 2em;
       width: 100%;
-
+      flex-direction: row;
+      align-content: center;
+      justify-content: space-evenly;
       
     }
     .portfolio-content{
-      width: 50%;
-      background-color: red;
-      flex-direction: column;
+      width: 30%;
+      margin-left: 2em;
       align-items: center;
+    }
+    .portfolio-content2{
+      width: 40%;
+      
+      align-content: center;
+
+      
     }
 
     .port-container{
     border: 1px solid #081b29;
       width: 500px;
-      
       background-color: #0ef;
       display: flex;
-      margin-top: 4em;
+      margin-top: 1em;
       object-fit: cover;
       flex-direction: column;
       
+
     }
+    .port-container2{
+      border: 1px solid #081b29;
+        width: 500px;
+        background-color: #0ef;
+        display: flex;
+        margin-top: 1em;
+        object-fit: cover;
+        flex-direction: column;
+        
+  
+      }
      .port-img{
       width: 100%;
       height: 300px;
@@ -406,6 +424,16 @@ body{
     .port-img img{
       width: 100%;
       height: 300px;
+      object-fit: cover;
+    }
+    .port-img2{
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .port-img2 img{
+      width: 100%;
+      height: 400px;
       object-fit: cover;
     }
 
