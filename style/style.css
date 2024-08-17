@@ -419,7 +419,7 @@ body{
      .port-img{
       width: 100%;
       height: 300px;
-      object-fit: cover;
+      
     }
     .port-img img{
       width: 100%;
@@ -428,12 +428,13 @@ body{
     }
     .port-img2{
       width: 100%;
-      height: 400px;
+      
+      height: 350px;
       object-fit: cover;
     }
     .port-img2 img{
       width: 100%;
-      height: 400px;
+      height: 350px;
       object-fit: cover;
     }
 
