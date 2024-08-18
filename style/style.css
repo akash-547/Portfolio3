@@ -454,3 +454,107 @@ body{
     font-size: 20px;
     font-weight: 500;
   }
+
+  /* Experince styling */
+  
+  #Experinces{
+    height: 100vmax;
+    width: 100%;
+    background-color: #081b29;
+   }
+   .experince-heading{
+     text-align: center;
+     color: #0ef;
+     font-size: 40px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 600;
+     align-content: center
+   }
+   .experince-heading h2{
+     padding-top: 1em;
+   }
+   .exper-container{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 100%;
+     margin-top: 5em;
+   }
+   .exper-heading{
+     font-family: "Poppins", sans-serif;
+     font-size: 25px;
+     color: #0ef;
+     margin-left: 2.3em;
+     font-size: 600;
+     
+     }
+     .exper-para{
+       color: white;
+       margin-right: 2em;
+       font-family: "Poppins", sans-serif;
+       font-size: 15px;
+       font-weight: 100;
+     }
+    
+.experince-items{
+  display: flex;
+  align-items: center;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(5, 121, 129, 0.116);
+  width: 100%;
+  align-content: center;
+  font-family: "Poppins", sans-serif;
+  
+}
+     .exp-item-one{
+      width: 40%;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-around;
+      display: inline-block;
+      flex-direction: row;
+     }
+     .exp-item-two{
+      width: 40%;
+      align-items: center;
+      margin-bottom: 10px;
+      flex-direction: row-reverse;
+      display: flex;
+      justify-content: space-around;
+      display: inline-block;
+      border-radius: 50px;
+     margin-left: 15em;
+     }
+
+     .exp-content{
+      padding: 10px;
+      
+      margin: 40px;
+      
+      color: white;
+      border-radius: 5px;
+     }
+     .company{
+      font-size: 12px;
+      color: #0ef;
+      padding-left: 1em;
+      font-family: "Poppins", sans-serif;
+     bottom: 0%;
+     }
+     .exp-skill{
+      font-size: 20px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+     }
+     .date{
+      padding-left: 1em;
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      color: #0ef;
+     }
+     .experince-para{
+      font-size: 15px;
+      font-family: "Poppins", sans-serif;
+     }
