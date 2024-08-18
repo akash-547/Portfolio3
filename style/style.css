@@ -285,7 +285,7 @@ body{
     height: 350px;
     border: 2px solid #081b29;
     margin-left: 2em;
-    transition: all .5s ease-in .5s;
+    transition: transform 0.3s;
     margin-top: 5em;
     
   }
@@ -305,6 +305,7 @@ body{
     background-color: rgba(5, 121, 129, 0.116);
     transition: .5s;
     cursor: pointer;
+    transform: translateY(-10px);
     color: white;
   }
 
@@ -648,3 +649,70 @@ body{
       font-size: 15px;
       font-weight: 100;
     }
+  
+  
+  .blog-container-two{
+      
+      margin-top: 5em;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .blog-card {
+      background-color: #0ef;
+      width: 380px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+      margin-left: 2em;
+  }
+  
+  .blog-card:hover {
+      transform: translateY(-10px);
+  }
+  
+  .blog-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+  }
+  
+  .blog-content {
+      padding: 20px;
+  }
+  
+  .blog-content h3 {
+      font-size: 20px;
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      color: #081b29;
+  }
+  
+  .blog-date {
+      display: block;
+      margin: 10px 0;
+      color: white;
+      font-family: "Poppins", sans-serif;
+  }
+  
+  .blog-content p {
+      color: #081b29;
+      line-height: 1.6;
+      font-size: 14px;
+      font-family: "Poppins", sans-serif;
+      margin-bottom: 15px;
+  }
+  
+  .read-more {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      font-family: "Poppins", sans-serif;
+      font-size: 14px;
+  }
+  
+  .read-more:hover {
+      text-decoration: underline;
+      color: #081b29;
+      transition:  1s;
+  }
