@@ -767,7 +767,6 @@ body{
   
   .contact-form{
    margin-top: 2em;
-   
    width: 50%;
    justify-content: space-around;
   }
@@ -790,17 +789,19 @@ body{
     margin-bottom: 25px;
     position: relative;
 }
+
 input,textarea{
     width: 100%;
-    padding: 10px 40px;
+    padding: 10px 50px;
     outline: 0;
-    border: 1px solid #0ef;;
+    border: none;
+    border-bottom: 1px solid #0ef;;
     background-color: #fff;
     background-color: transparent;
     font-size: 15px;
-    resize: none;
-    border-radius: 5px;
+    resize: none; 
 }
+
 input:focus~label,input:valid~label,textarea:focus~label,textarea:valid~label{
     top: -30px;
     font-size: 14px;
