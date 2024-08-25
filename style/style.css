@@ -899,7 +899,7 @@ label{
 .menu-bar{
   font-size: 30px;
   display:block;
-  margin-right: 10em;
+  
 }
 .menu-bar:hover{
   color: #0ef;
