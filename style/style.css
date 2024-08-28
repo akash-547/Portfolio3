@@ -268,7 +268,6 @@ h3 {
 
 /* service-stying */
 #service-section {
-  height: 120vh;
   width: 100%;
   background-color: #0a2030;
 }
@@ -308,6 +307,7 @@ h3 {
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-content: center;
 }
 .web-developer {
@@ -972,6 +972,7 @@ label {
   .about-h2{
     font-size: 30px;
     text-align: center;
+    margin-top: 20px;
     
   }
   .about-para {
@@ -1028,6 +1029,61 @@ margin-left: 15px;
   font-size: 15px;
   font-weight: 500;
 }
+/* service-section */
+.main-heading {
+  text-align: center;
+  color: #0ef;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  align-content: center;
+}
+.service-container {
+  display: block;
+  flex-direction: row;
+  margin-top: 10px;
+  
+
+}
+.ser-heading {
+  font-size: 13px;
+  margin-left: 15px;
+  font-size: 100;
+}
+
+.ser-para {
+  font-size: 13px;
+  font-weight: 100;
+  margin-left: 10px;
+  & .ser-br{
+    display: none;
+  }
+}
+.service-container2 {
+  width: 100%;
+  justify-content: space-around;
+}
+
+.web-developer {
+  width: 250px;
+  height: auto;
+  margin-left: 0;
+  padding-bottom: 2em;
+  margin-top: 2em;
+}
+.web-developer i {
+  font-size: 30px;
+  font-weight: 100;
+}
+.web-developer h4 {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.web-developer i, h4, p {
+  padding: 10px;
+}
+
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .logo a,
@@ -1197,5 +1253,37 @@ margin-left: 15px;
   font-size: 380px;
   color: #0ef;
   margin-left:40px;
+}
+/* service-section */
+
+.service-h2{
+  margin-top: 20px;
+}
+.service-container {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+.ser-heading {
+  font-size: 15px;
+  margin-left: auto;
+}
+.ser-para {
+  margin-right: auto;
+  font-size: 16px; 
+}
+.web-developer {
+  width: 250px;
+  height: auto;
+  justify-content: space-around;
+  margin-left: 2em;
+  padding-bottom: 2em;
+  margin-top: 2em;
+}
+.web-box1{
+  margin-left: 0%;
+}
+.web-developer i {
+  font-size: 30px;
 }
 }
