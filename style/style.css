@@ -182,7 +182,7 @@ h3 {
   color: #0ef;
 }
 .about-para {
-  margin-top: 80px;
+  margin-top: 5em;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
 }
@@ -1119,6 +1119,7 @@ margin-left: 15px;
 /* ABOUT SECTION */
 .main-heading h2{
   padding-top: 0%;
+  font-size: 40px;
 }
 
   .about-para {
