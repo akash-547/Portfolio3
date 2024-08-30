@@ -426,6 +426,11 @@ a {
   width: 100%;
   height: auto;
 }
+.portfolio-item:hover{
+  transition: 0.5s;
+  cursor: pointer;
+  transform: translateY(-10px);
+}
 
 .item-info {
   background-color: #00C2D1;
