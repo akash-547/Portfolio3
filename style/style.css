@@ -414,7 +414,7 @@ a {
 }
 
 .portfolio-item {
-  background-color: #0a2030;
+  background-color: #282C35;
   overflow: hidden;
   flex: 1 1 calc(50% - 40px);
   max-width: calc(50% - 40px);
