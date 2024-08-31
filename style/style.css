@@ -26,7 +26,10 @@ body {
 .navbar div {
   margin: 10px;
 }
-
+.logo{
+  padding-bottom:2em ;
+  ;
+}
 .logo a,
 h3 {
   color: white;
@@ -131,7 +134,8 @@ h3 {
 }
 .hero-btn {
   color: #0ef;
-  margin-left: 10px;
+  margin-left: 0;
+  padding: 15px;
   font-size: 20px;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
@@ -309,7 +313,9 @@ h3 {
   justify-content: center;
   flex-wrap: wrap;
   align-content: center;
+  padding-bottom: 5em;
 }
+
 .web-developer {
   background-color: #0ef;
   width: 250px;
@@ -453,9 +459,8 @@ a {
 /* Experince styling */
 
 #Experinces {
-  height: 75vmax;
   width: 100%;
-  background-color: #081b29;
+  background-color: #0a2030;
 }
 .experince-heading {
   text-align: center;
@@ -496,7 +501,6 @@ a {
   display: inline-block;
   flex-direction: row;
   justify-content: space-around;
-  background-color: rgba(5, 121, 129, 0.116);
   width: 100%;
   align-content: center;
   font-family: "Poppins", sans-serif;
@@ -1115,6 +1119,72 @@ a {
 .item-info p {
   padding-left: 0%;
 }
+/* Experinces */
+.experince-heading h2 {
+  font-size: 25px;
+  padding-top: 1em;
+}
+.exper-container {
+  display: block;
+  justify-content: center;
+  margin-top: 1em;
+}
+.exper-heading {
+  font-size: 12px;
+  padding-left: 15px;
+  color: #0ef;
+  margin-left: 0px;
+  font-size: 500;
+}
+.exper-para {
+  color: white;
+  margin-right: 0;
+  margin-left: 8px;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+.company {
+  font-size: 10px;
+}
+.date {
+  font-size: 10px;
+}
+.exp-skill {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.experince-para {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+}
+.exp-content {
+  padding: 10px;
+  margin: 20px 40px;
+  color: white;
+  border-radius: 5px;
+}
+.exp-item-one {
+  width: 100%;
+  margin-bottom: 10px;
+  display: block;
+  justify-content: center;
+  & br{
+    display: none;
+  }
+}
+.exp-item-two {
+  width: 100%;
+  margin-bottom: 10px;
+  display: block;
+  justify-content: center;
+  margin-left: 0;
+  & br{
+    display: none;
+  }
+}
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .logo a,
@@ -1334,9 +1404,9 @@ margin-left: 15px;
   }
 }
 .port-para {
-  font-size: 12px;
+  font-size: 14px;
   width: 60%;
-  margin-left: 14em;
+  margin-left: 12em;
 }
 
 .unordered {
@@ -1378,5 +1448,101 @@ a {
 .item-info p {
   padding: 10px 0;
   font-size: 15px;
+}
+/* Experinces */
+.experince-heading h2 {
+  font-size: 35px;
+  padding-top: 1em;
+}
+.exper-container {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2em;
+}
+.exper-heading {
+  font-size: 15px;
+  color: #0ef;
+  margin-left: 0px;
+  font-size: 500;
+}
+.exper-para {
+  color: white;
+  margin-right: 0;
+  font-size: 13px;
+  font-weight: normal;
+}
+.exp-content {
+  padding: 10px;
+  margin: 20px 40px;
+  color: white;
+  border-radius: 5px;
+}
+.exp-item-one {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  & br{
+    display: none;
+  }
+}
+.exp-item-two {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+  & br{
+    display: none;
+  }
+}
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+/* Experinces */
+
+.exper-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+ 
+}
+
+.exp-content {
+  padding: 10px;
+  margin: 20px 40px;
+  color: white;
+  border-radius: 5px;
+}
+.exper-heading {
+  margin-left: 0px;
+  margin-right: 5em;
+}
+.exper-para {
+  color: white;
+  margin-right: 0; 
+  margin-right: 0;
+  margin-left: 0;
+  font-size: 14px;
+ 
+}
+.exp-item-one {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  & br{
+    display: none;
+  }
+}
+.exp-item-two {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+  & br{
+    display: none;
+  }
 }
 }
