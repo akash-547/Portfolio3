@@ -171,6 +171,7 @@ h3 {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  padding-bottom: 4em;
 }
 .about-skill-content {
   width: 50%;
@@ -559,12 +560,12 @@ a {
 /* testimomial section */
 #testinmonial-section {
   width: 100%;
-  height: 100vh;
   background-color: #081b29;
 }
 .testimonial-heading {
   text-align: center;
   color: #0ef;
+  padding-top: 2em;
   font-size: 40px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -573,7 +574,6 @@ a {
 .testmonial-container {
   width: 100%;
   background-color: rgba(5, 121, 129, 0.116);
-  height: 500px;
   margin-top: 2em;
 }
 .testimonial-content {
@@ -589,6 +589,9 @@ a {
   margin-top: 10em;
 }
 .test-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 2em;
 }
 .test-name i {
@@ -597,13 +600,13 @@ a {
   color: #0ef;
 }
 .test-name h4 {
-  font-size: 20px;
+  font-size: 15px;
   color: white;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
 }
 .test-img {
-  width: 30px;
+  width: 40px;
   border-radius: 50%;
 }
 /* blog styling */
@@ -1183,7 +1186,38 @@ a {
   margin-left: 0;
   & br{
     display: none;
+  } 
+}
+/* testimoials */
+.testimonial-heading {
+  color: #0ef;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 2em;
+}
+.testimonial-content{
+  padding-bottom: 1em;
+}
+.testimonial-content p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  margin-top: 2em;
+  & br{
+    display: none;
   }
+}
+.test-name {
+   margin-top: 0; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   & h4{
+    font-size: 12px;
+   }
+   & .test-img{
+    width: 35px;
+   }
 }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -1497,6 +1531,37 @@ a {
     display: none;
   }
 }
+/* testimoials */
+.testimonial-heading {
+  color: #0ef;
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 2em;
+}
+.testimonial-content{
+  padding-bottom: 1em;
+}
+.testimonial-content p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  margin-top: 2em;
+  & br{
+    display: none;
+  }
+}
+.test-name {
+   margin-top: 0; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   & h4{
+    font-size: 12px;
+   }
+   & .test-img{
+    width: 35px;
+   }
+}
 }
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
 /* Experinces */
@@ -1545,4 +1610,5 @@ a {
     display: none;
   }
 }
+
 }
