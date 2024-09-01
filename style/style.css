@@ -625,25 +625,35 @@ a {
 .blog-heading h2 {
   padding-top: 1em;
 }
+.blog-heading-time {
+  text-align: center;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  align-content: center;
+  
+}
+.blog-heading-time h3 {
+  padding-top: 0;
+  font-size: 40px;
+  margin-left: 0;
+  color: #0ef;
+}
 .blog-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
-  margin-top: 5em;
+  margin-top: 2em;
+  
 }
-.blog-heading {
-  font-family: "Poppins", sans-serif;
-  font-size: 25px;
-  color: #0ef;
-  margin-left: 2.3em;
-  font-size: 600;
-}
+
 .blog-para {
   color: white;
-  margin-right: 2em;
+  margin-right: 0;
+  margin-left: 4em;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 100;
 }
 
@@ -651,6 +661,7 @@ a {
   margin-top: 5em;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .blog-card {
@@ -660,6 +671,7 @@ a {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
   margin-left: 2em;
+  margin-top: 1em;
 }
 
 .blog-card:hover {
@@ -685,7 +697,6 @@ a {
 
 .blog-date {
   display: block;
-  margin: 10px 0;
   color: white;
   font-family: "Poppins", sans-serif;
 }
@@ -695,7 +706,8 @@ a {
   line-height: 1.6;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+  padding-left: 0%;
 }
 
 .read-more {
@@ -704,6 +716,7 @@ a {
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
+  padding-left: 0%;
 }
 
 .read-more:hover {
@@ -1219,6 +1232,86 @@ a {
     width: 35px;
    }
 }
+/* blog section */
+
+.blog-heading {
+  font-size: 20px;
+  margin-left: 0;
+  font-weight: 100;
+}
+.blog-container {
+  display: block;
+  width: 100%;
+  margin-top: 0;
+}
+.blog-para {
+  color: white;
+  margin-right: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  padding-left: 0%;
+  margin-left: 8px;
+  & br{
+    display: none;
+  }
+}
+.blog-heading-time {
+  text-align: start;
+  margin-left: 0;
+  font-weight: 600;
+  align-content: center;
+}
+.blog-heading-time h3 {
+  padding-top: 15px;
+  color: #0ef;
+  font-size: 15px;
+  margin-left: 17px;
+}
+.blog-container-two {
+  margin-top: 1em;
+  display: flex;
+  padding-bottom: 2em;
+  flex-wrap: wrap;
+}
+
+.blog-card {
+  background-color: #0ef;
+  width: 300px;
+  margin-top: 2em; ;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin: 20px 0;
+  margin-left: 1em;
+ 
+}
+.blog-content {
+  padding: 5px 10px;
+}
+
+.blog-content h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.blog-date {
+    display: block;
+    margin: 0px 0;
+    font-size: 15px;
+}
+.blog-content p {
+  color: #081b29;
+  line-height: 1;
+  font-size: 14px;
+  margin-bottom: 1px;
+  padding-left: 0%;
+}
+.read-more {
+  font-weight: 500;
+  padding-left: 0%;
+  font-size: 14px;
+}
+
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .logo a,
@@ -1562,6 +1655,84 @@ a {
     width: 35px;
    }
 }
+/* blog section */
+
+.blog-heading {
+  font-size: 25px;
+  margin-left: 0;
+  font-weight: 100;
+}
+.blog-container {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin-top: 0;
+}
+.blog-para {
+  color: white;
+  margin-right: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  padding-left: 0%;
+  margin-left: 0;
+
+}
+.blog-heading-time {
+  text-align: center;
+  margin-left: 0;
+  font-weight: 600;
+  align-content: center;
+}
+.blog-heading-time h3 {
+  padding-top: 15px;
+  color: #0ef;
+  font-size: 18px;
+  margin-left: 0;
+}
+.blog-container-two {
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 2em;
+  width: 95%;
+
+}
+
+.blog-card {
+  background-color: #0ef;
+  width: 350px;
+  margin-top: 2em; ;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.blog-content {
+  padding: 20px 10px;
+}
+
+.blog-content h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.blog-date {
+    display: block;
+    margin: 0px 0;
+    font-size: 18px;
+}
+.blog-content p {
+  color: #081b29;
+  line-height: 1;
+  font-size: 15px;
+  margin-bottom: 1px;
+  padding-left: 0%;
+}
+.read-more {
+  font-weight: 500;
+  padding-left: 0%;
+  font-size: 18px;
+}
+
 }
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
 /* Experinces */
@@ -1610,5 +1781,6 @@ a {
     display: none;
   }
 }
+
 
 }
