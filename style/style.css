@@ -26,10 +26,6 @@ body {
 .navbar div {
   margin: 10px;
 }
-.logo{
-  padding-bottom:2em ;
-  ;
-}
 .logo a,
 h3 {
   color: white;
@@ -58,6 +54,7 @@ h3 {
   font-weight: 550;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
+  font-size: 18px;
   padding: 5px 0;
 }
 .menu-bar {
@@ -397,9 +394,16 @@ p {
   justify-content: center;
   margin-top: 4em;
 }
-.unordered li,
-a {
+.unordered li {
   list-style: none;
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding-left: 2em;
+}
+.unordered a{
+    list-style: none;
   text-decoration: none;
   color: white;
   font-family: "Poppins", sans-serif;
@@ -409,6 +413,10 @@ a {
 .unordered a:hover {
   color: #0ef;
   transition: 0.5s;
+}
+.a{
+  color: white;
+  padding-left: 1em;
 }
 
 
@@ -729,15 +737,14 @@ a {
 #form-section {
   width: 100%;
   background-color: #0a2030;
-
-  margin-top: 10em;
 }
 .form-container {
-  width: 100%;
+  width: 95%;
   justify-content: space-around;
   display: flex;
   align-content: center;
   align-items: center;
+  padding-bottom: 3em;
 }
 .contact {
   width: 50%;
@@ -764,7 +771,8 @@ a {
   font-size: 50px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 600;
-  padding: 0.3em;
+  padding: 0;
+ 
 }
 .contact-contect i:hover {
   color: #0ef;
@@ -1311,7 +1319,77 @@ a {
   padding-left: 0%;
   font-size: 14px;
 }
-
+/* form-section */
+/* form-section */
+.form-container {
+  width: 100%;
+  justify-content: space-around;
+  display: block;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5em;
+  padding-top: 2em ;
+}
+.contact {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.contact-contect {
+  padding: 0;
+}
+.contact-contect p {
+  font-size: 20px;
+  padding-left: 0%;
+}
+.contact-contect span {
+  font-size: 12px;
+}
+.cantac-icons{
+  margin-right: 1em;
+}
+.cantac-icons i{
+  font-size: 20px;
+  padding-left: 0%;
+}
+.contact-form {
+  margin-top: 2em;
+  width: 85%;
+  justify-content: space-around;
+  margin-right: 3em;
+}
+.Touch {
+  font-size: 25px;
+  margin-bottom: 0;
+  text-align: center;
+  margin-left: 2em ;
+}
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.bton {
+  background-color: rgb(0, 152, 255);
+  padding: 15px 30px 15px 30px;
+  color: white;
+  font-size: 15px;
+  border: none;
+  margin-left: 0%;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 10px 30px;
+  outline: 0;
+  border: none;
+  border-bottom: 1px solid #0ef;
+  background-color: #fff;
+  background-color: transparent;
+  font-size: 15px;
+  resize: none;
+}
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .logo a,
@@ -1732,7 +1810,65 @@ a {
   padding-left: 0%;
   font-size: 18px;
 }
-
+/* form-section */
+.form-container {
+  width: 100%;
+  justify-content: space-around;
+  display: block;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5em;
+  padding-top: 2em ;
+}
+.contact {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.contact-contect {
+  padding: 0;
+}
+.contact-contect p {
+  font-size: 25px;
+  padding-left: 0%;
+}
+.contact-contect span {
+  font-size: 12px;
+}
+.cantac-icons{
+  margin-right: 1em;
+}
+.cantac-icons i{
+  font-size: 25px;
+  padding-left: 0%;
+  
+}
+.contact-form {
+  margin-top: 2em;
+  width: 85%;
+  justify-content: space-around;
+  margin-right: 3em;
+}
+.Touch {
+  font-size: 30px;
+  margin-bottom: 0;
+  text-align: center;
+  margin-left: 3em;
+}
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.bton {
+  background-color: rgb(0, 152, 255);
+  padding: 15px 30px 15px 30px;
+  color: white;
+  font-size: 15px;
+  border: none;
+  margin-left: 0%;
+}
 }
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
 /* Experinces */
