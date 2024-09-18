@@ -874,7 +874,7 @@ label {
     display: none;
   }
   .menu-bar {
-    font-size: 30px;
+    font-size: 25px;
     display: block;
   }
   .menu-bar:hover {
@@ -977,7 +977,7 @@ label {
   }
   .about-para {
     margin-top: auto;
-    font-size: 15px;
+    font-size: 13px;
     font-family: "Poppins", sans-serif;
     display: inline-block;
 }
@@ -1366,7 +1366,7 @@ a {
   margin-top: 2em;
   width: 85%;
   justify-content: space-around;
-  margin-right: 3em;
+  margin-right: 0;
 }
 .Touch {
   font-size: 25px;
@@ -1390,7 +1390,7 @@ a {
 input,
 textarea {
   width: 100%;
-  padding: 10px 30px;
+  padding: 10px 25px;
   outline: 0;
   border: none;
   border-bottom: 1px solid #0ef;
@@ -1642,7 +1642,7 @@ a {
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  padding-left: 10px;
+  padding-left: 0;
 }
 
 .portfolio-item {
